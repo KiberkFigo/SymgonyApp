@@ -1,0 +1,37 @@
+version: "3"
+services:
+  app:
+    image: webdevops/php-nginx-dev:8.0
+    environment:
+      TEST: test
+      WEB_DOCUMENT_ROOT: /app
+      WEB_DOCUMENT_INDEX: public/index.php
+    ports:
+      - "80:80"
+    volumes:
+      - ./my_firstAPP:/app
+    networks:
+      employee-network:
+        ipv4_address: 172.42.0.10
+
+  mariadb:
+    image: mariadb:10.7-focal
+    environment:
+      MARIADB_ROOT_PASSWORD: strongpassword
+    ports:
+      - "3306:3306"
+    volumes:
+      - mariadb-data:/var/lib/mysql
+    networks:
+      employee-network:
+        ipv4_address: 172.42.0.20
+
+volumes:
+  mariadb-data: {}
+  couchbase-data: {}
+
+networks:
+  employee-network:
+    ipam:
+      config:
+        - subnet: 172.42.0.0/24
