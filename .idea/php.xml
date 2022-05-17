@@ -34,6 +34,21 @@
       <path value="$PROJECT_DIR$/my_firstAPP/vendor/symfony/var-dumper" />
       <path value="$PROJECT_DIR$/my_firstAPP/vendor/symfony/var-exporter" />
       <path value="$PROJECT_DIR$/my_firstAPP/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/my_firstAPP/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/my_firstAPP/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/my_firstAPP/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/my_firstAPP/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/my_firstAPP/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/my_firstAPP/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/my_firstAPP/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/my_firstAPP/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/my_firstAPP/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/my_firstAPP/vendor/doctrine/sql-formatter" />
+      <path value="$PROJECT_DIR$/my_firstAPP/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/my_firstAPP/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/my_firstAPP/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/my_firstAPP/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/my_firstAPP/vendor/symfony/twig-bridge" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.0" />
